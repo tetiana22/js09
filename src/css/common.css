@@ -16,3 +16,33 @@ img {
   display: block;
   max-width: 100%;
 }
+.timer {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.field {
+  text-align: center;
+  min-width: 100px;
+}
+
+.value {
+  font-size: 4rem;
+  font-weight: 500;
+}
+.label {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+button[disabled] {
+  color: #201f1c;
+  opacity: 0.5;
+  animation: none;
+  cursor: not-allowed;
+}
+button:active {
+  position: relative;
+  top: 2px;
+  color: #2e692a;
+}
